@@ -61,5 +61,20 @@
       </div>
       </section>
     </main>
+    <script>
+      const heading = document.querySelector('h1');
+
+      heading.addEventListener('click', () => {
+        heading.classList.toggle('active-heading');
+      });
+
+        const figCaptions = document.querySelectorAll('figcaption');
+
+        figCaptions.forEach((caption) => {
+  caption.addEventListener('click', () => {
+    caption.style.color = '#0000FF';
+  });
+});
+    </script>
   </body>
 </html>

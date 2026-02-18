@@ -77,6 +77,10 @@ img {
   border-radius: 8px;
 }
 
+.active-heading {
+  color: #0077cc;
+}
+
 @media (min-width: 768px) {
   ul {
     flex-direction: row;
@@ -96,13 +100,12 @@ img {
     flex-direction: row;
     gap: 2rem;
   }
+  .itineraries img {
+    height: 22rem;
+    object-fit: cover;
+  }
 
   .itineraries figure {
     flex: 1;
   }
-}
-
-.itineraries img {
-  height: 22rem;
-  object-fit: cover;
 }
