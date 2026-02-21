@@ -81,6 +81,24 @@ img {
   color: #0077cc;
 }
 
+.package {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.highlight {
+  color: #ff4500;
+  transform: scale(1.2);
+}
+
+#dynamic-destinations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   ul {
     flex-direction: row;
